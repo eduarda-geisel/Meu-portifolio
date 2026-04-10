@@ -1,0 +1,53 @@
+.inicio {
+    display: flex; 
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgb(124, 3, 3);
+    color:aliceblue;
+    font-family: sans-serif;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+} 
+
+body {
+    margin: auto;
+    background: black;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+.cards {
+    display: flex;
+    color: black;
+    font-family: sans-serif;
+    font-size: x-large;
+    text-align: center;
+    background: rgb(171, 171, 196);
+    gap: 16px;
+}
+
+.card{
+    background: red;
+    padding: 10px;
+}
+
+.principal {
+    color: white;
+    font-family: italic;
+    font-weight: 600;
+    font-size: x-large;
+    text-align: center;
+    padding: 160px;
+}
+
+.um {
+    width: 400px;
+    height: 500px;
+}
+
