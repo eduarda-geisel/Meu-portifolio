@@ -3,7 +3,7 @@
     justify-content: space-between;
     padding: 30px;
     background-color: rgb(124, 3, 3);
-    color:aliceblue;
+    color:rgb(0, 0, 0);
     font-family: sans-serif;
 }
 
@@ -14,12 +14,13 @@
 
 body {
     margin: auto;
-    background: black;
+    background: white;
 }
 
 h1{
     font-family: 'Times New Roman', Times, serif;
-    color: red;
+    color: rgb(230, 87, 87);
+    
 }
 
 .cards {
@@ -28,26 +29,63 @@ h1{
     font-family: sans-serif;
     font-size: x-large;
     text-align: center;
-    background: rgb(171, 171, 196);
-    gap: 16px;
+    background: rgb(211, 92, 92);
+    gap: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 100px 50px;
 }
 
 .card{
-    background: red;
+    background: rgba(146, 41, 41, 0.644);
     padding: 10px;
 }
 
 .principal {
-    color: white;
+    color: rgb(255, 174, 174);
     font-family: italic;
     font-weight: 600;
     font-size: x-large;
     text-align: center;
-    padding: 160px;
 }
 
 .um {
-    width: 400px;
+    width: 500px;
     height: 500px;
 }
 
+.dois {
+    width: 500px;
+    height: 500px;
+}
+
+.tres {
+    width: 500px;
+    height: 500px;
+}
+
+.quatro {
+    width: 500px;
+    height: 500px;
+}
+
+.cinco {
+    width: 500px;
+    height: 500px;
+}
+
+.seis {
+    width: 500px;
+    height: 500px;
+}
+section {
+    text-align: center;
+    background: rgb(255, 174, 174);
+}
+
+footer{
+    text-align: center;
+    font-size: xx-large;
+    padding: 200px 200px;
+    background: rgb(255, 174, 174);
+}
